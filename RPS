@@ -1,0 +1,17 @@
+print("Hello players !")
+player1=input(" [player1] enter your choice (rock/paper/scissor) :")
+player2=input(" [player2] enter your choice (rock/paper/scissor) :")
+if (player1=="scissor") and (player2== "paper"):
+    print("hey! scissor cuts the paper...\n so, player1 wins")
+elif (player2=="scissor")and (player1=="paper"):
+    print=("hey! scissor cuts the paper...\n so,player2 wins")
+elif (player1=="rock")and(player2=="scissor"):
+    print("hey! rock hits scissor...\n so, player1 wins")
+elif(player2=="rock")and (player1=="scissor"):
+    print("hey! rock hits scissor...\n so player2 wins")
+elif(player1=="rock")and(player2=="paper"):
+    print("hey! paper covers the rock...\n so player2 wins")
+elif(player2=="rock")and(player1=="paper"):
+    print("hey! paper covers the rock...\n so player1 wins")
+else:
+    print("oh! you both have draw")
